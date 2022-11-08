@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Super Hero's</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	
+	<div class="img-back">
+		<!-- <img src="spider.jpg" class="image"> -->
+	<nav id="navbar">
+		<ul id="nav-content">
+			<li>
+				<a href="#">SuperHeros</a>
+				<a href="fav.html">Favourites</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- main section -->
+	<main>
+		<form id="form" method="get" action="">
+			<input type="text" id="search-character" placeholder="Search your fav superhero....">
+		</form>
+	</main>
+	<!-- Here what we search is displayed according to api -->
+	<div id="superhero-list">
+		<template id="template">
+			<div id="superhero">
+				<div id="info">
+					<div id="name"></div>
+                    <div id="id">Race</div>
+                    <div id="description">Description</div>
+				</div>
+				<div id="buttons">
+					<button id="fav">Add to Favourite</button>
+                    <button id="more-info">More Info</button>
+				</div>
+			</div>
+		</template>
+	</div>
+</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

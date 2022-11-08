@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Favourites</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	  <!-- navigation bar -->
+    <nav id="navbar">
+        <ul id="nav-content">
+            <li><a href="index.html">SUPERHERO</a></li>
+            <li><a href="fav.html">FAVOURITES</a></li>
+        </ul>
+    </nav>
+
+    <!-- title for page -->
+
+    <div id="title">
+        My Favourite Heroes!
+    </div>
+<!-- container where superohero will show according to favourites -->
+    <div id="superhero-list">
+        <template id="template">
+            <div id="superhero">
+
+                <!-- basic info -->
+                <div id="info">
+                    <div id="name">
+                        Name
+                    </div>
+                    <div id="id">
+                        Id
+                    </div>
+                    <div id="comics">
+                        Comics
+                    </div>
+                    <div id="buttons">
+                        <!-- button to remove from favourites -->
+                        <button id="fav">Remove</button>
+                        <!-- button for directing to about page -->
+                        <button id="more-info">More Info</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </template>
+    </div>
+
+<!-- script for favourite js -->
+    <script src="fav.js"></script>
+</body>
+</html>

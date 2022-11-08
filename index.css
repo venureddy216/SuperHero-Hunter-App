@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+    background-image: url("spider.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*nav bar styling*/
+
+#navbar{
+	background-color: darkgrey;
+    height: 4rem;
+    width: 100%;
+}
+#nav-content{
+	list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+   
+}
+#nav-content li a{
+    text-decoration: none;
+    color: #edc75c;
+    letter-spacing: 2px;
+    font-family: Marvel ;
+    margin: 30px 100px;
+}
+
+/* --main-body--*/
+form{
+    
+    margin-top: 10vh;
+    margin-left: 35vw; 
+}
+#search-character{
+	 height: 3rem;
+    width: 25rem;
+    border-radius:25px;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #999493;
+    border: 2px red solid;
+    color: white;
+}
+#search-hero{
+    height: 3rem;
+    width: 6rem;
+    border-radius:50px;
+    font-family: Marvel;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px red solid;
+    color: white;   
+}
+
+/* --superhero container-- */
+
+#superhero-list{
+    height: fit-content;
+    position: relative;
+    top: 20vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#superhero{
+    border-radius: 2rem;
+    width: max-content;
+    color: white;
+    font-family: Marvel;
+    font-size: x-large;
+    background-color: #b08d9a;
+    min-width: 320px;
+    border: 1px solid red;
+    margin : 10px;
+    padding: .5rem;
+    height: max-content;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: .6rem;
+}
+
+#fav{
+    height: 3.3rem;
+    width: 6rem;
+    border-radius:50px;
+    font-family: Marvel;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px red solid;
+    color: white; 
+}
+
+#more-info{
+    height: 3.3rem;
+    width: 6rem;
+    border-radius:50px;
+    font-family: Marvel;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px red solid;
+    color: white;  
+}
+/* --page title-- */
+#title{
+    background-color: #bba4f5;
+    text-align: center;
+    color: red;
+    font-family: Marvel;
+    position: relative;
+    font-size: 3rem;
+
+    font-weight: bolder ;
+    top: 10vh;
+}
+#pic{
+    display: #605a6e;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 50px;
+}
+button{
+    cursor: pointer;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#details
+{
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 2rem;
+    height: max-content;
+    padding: 1rem;
+    width: max-content;
+    background-color: #b08d9a;
+    position: relative;
+    top: 25vh;
+    left: 30%;
+    text-align: left;
+}
+
+#power
+{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    width: 50vw;
+}
+
+#power span
+{
+    font-size: 2rem;
+}
+
+#bio span
+{
+    color: white;
+    font-size: 2rem;
+}
+#bio
+{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 100px;
+}
